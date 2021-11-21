@@ -2,7 +2,7 @@ import numpy as np
 from timeit import default_timer as timer
 from numba import vectorize
 
-# This program allows you to compare the speed of computation
+# This program allows you to compare the speeds of computation
 # on CPU with that on GPU on your local system
 
 def VectorAdd_cpu(a,b,c):
